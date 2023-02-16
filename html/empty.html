@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <style>
+         table{ border-collapse : collapse; }  /*이중선 제거*/
+ th,td{
+      width: 100px;
+      height: 50px;
+      text-align: center;
+      border: 1px solid #000;
+      
+      vertical-align: top;	/* 위 */
+      vertical-align: bottom;   /* 아래 */
+      vertical-align: middle;   /* 가운데 */
+    }
+    </style>
+    <title>달리</title>
+</head>
+<body>
+    <div class = "introduce">
+        <h2>자기소개</h2>
+    </div>
+    <div class = "name">
+        <li>이름: 김동연</li>
+        <li>사는 곳: 관악구</li>
+        <li>안녕하세요. 전 물빠진떡 현 달리입니다.</li>
+    </div>
+    <div>
+        <h2>인생 영화 BEST5</h2>
+        <table>
+            <th class = "rank">순위</th>
+            <th class = "title">제목</th>
+            <th class = "poster" ></th>
+            <th class = "summary">줄거리</th>
+            <th class = "link">바로가기</th>
+            <tr>
+                <td class = "rank">1</td>
+                <td class = "title">다크나이트</td>
+                <td class = "poster"></td>
+                <td class = "summary" >형사와 악당의 러브스토리</td>
+                <td class = "link">클릭</td>
+            </tr>
+            <tr>
+                <td class = "rank">4</td>
+                <td class = "title">다크나이트</td>
+                <td class = "poster">형사와 악당의 러브스토리</td>
+                <td class = "summary">포스터</td>
+                <td class = "link">클릭</td>
+            </tr>
+            <tr>
+                <td class = "rank">3</td>
+                <td class = "title">다크나이트</td>
+                <td class = "poster">형사와 악당의 러브스토리</td>
+                <td class = "summary">포스터</td>
+                <td class = "link">클릭</td>
+            </tr>
+            <tr>
+                <td class = "rank">4</td>
+                <td class = "title">다크나이트</td>
+                <td class = "poster">형사와 악당의 러브스토리</td>
+                <td class = "summary">포스터</td>
+                <td class = "link">클릭</td>
+            </tr>
+            <tr>
+                <td class = "rank">5</td>
+                <td class = "title">다크나이트</td>
+                <td class = "poster">형사와 악당의 러브스토리</td>
+                <td class = "summary">포스터</td>
+                <td class = "link">클릭</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>방명록</h2>
+        <div>
+        이름 : <input type ="text" name = "이름">
+        </div>
+        <div>
+        <h3>본인 취향 영화</h3>
+        <input type = "checkbox" value="다크나이트">다크나이트
+        <input type = "checkbox" value="다크나이트">다크나이트
+        <input type = "checkbox" value="다크나이트">다크나이트
+        <input type = "checkbox" value="다크나이트">다크나이트
+        <input type = "checkbox" value="다크나이트">다크나이트
+        </div>
+        <div>
+            <button type ="button" value="등록">등록</button>
+            <button type ="reset" value="취소">취소</button>
+        </div>
+    </div>
+</body>
+</html>
